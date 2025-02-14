@@ -11,7 +11,8 @@ plugins {
 
 android {
     namespace = "app.kotlin.medicina"
-    compileSdk = 35
+    compileSdk = 34
+
 
     defaultConfig {
         applicationId = "app.kotlin.medicina"
@@ -91,7 +92,7 @@ dependencies {
 
 //------------------------------viewModel---------------------------------------------------
 
-    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0")
+
 
 //--------------------------------liveData----------------------------------------------------
 
@@ -103,6 +104,9 @@ dependencies {
    // kapt ("androidx.room:room-compiler:2.4.3")
     //----------------------------glide----------------------------------------------------------
     implementation ("com.github.bumptech.glide:glide:4.15.1")
+
+    //implementation (libs.material.calendarview)
+    implementation ("com.github.prolificinteractive:material-calendarview:2.0.1")
 
 
 //-------------------------error dagger hilt-------------------------------------------------------
